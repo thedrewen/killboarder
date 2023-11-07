@@ -1,0 +1,11 @@
+name: KillBoarder
+version: 0.0.1
+main: TheDreWen\KillBoarder\Main
+api: 5.8.0
+src-namespace-prefix: TheDreWen\KillBoarder
+author: TheDreWen
+description: Creates an entity showing the 10 players with the most kills.
+permissions:
+  killboarder.op:
+    description: "Permission OP"
+    default: op

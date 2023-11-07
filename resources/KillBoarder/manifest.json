@@ -1,0 +1,18 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "KillBoarder",
+		"description": "Ressource Pack KillBoarder",
+        "uuid": "dc0e7d0f-2d0a-4f3e-ba54-ab2b37bc59ee",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 0]
+	},
+	"modules": [
+		{
+			"description": "Ressource Pack KillBoarder",
+			"type": "resources",
+            "uuid": "78e4c2d6-f44a-4377-bc1d-cff6a87847f1",
+			"version": [1, 0, 0]
+		}
+	]
+}

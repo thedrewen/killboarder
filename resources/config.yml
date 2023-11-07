@@ -1,0 +1,8 @@
+server-name: §c[§eKillBoarder§c]§e # Server Name
+players:
+leaderboard:
+# Set true if you want killed mobs to count as 1 points.
+isMobKill: true
+# {player} : Player Name
+# {number} : Number kill
+text-format: {player} : {number}Kills
