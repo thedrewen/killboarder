@@ -1,5 +1,5 @@
 name: KillBoarder
-version: 0.0.1
+version: 0.0.2
 main: TheDreWen\KillBoarder\Main
 api: 5.8.0
 src-namespace-prefix: TheDreWen\KillBoarder

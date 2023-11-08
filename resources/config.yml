@@ -5,4 +5,6 @@ leaderboard:
 isMobKill: true
 # {player} : Player Name
 # {number} : Number kill
-text-format: {player} : {number}Kills
+# {place} : Player Place
+text-format: {place}. {player} : {number}Kills
+max-place: 10

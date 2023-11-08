@@ -33,9 +33,10 @@ class tasks extends Task
                             $i++;
                             $texte = \str_replace("{player}", $playerName, $texteFormat);
                             $texte = \str_replace("{number}", $kill, $texte);
+                            $texte = \str_replace("{place}", $i, $texte);
                             $text = $text . "\n" . $texte;//"\n" . $playerName." : ".$kill."Kills\n";
 
-                            if($i == 10)
+                            if($i == $conf->get("max-place"))
                             {
                                 break;
                             }
